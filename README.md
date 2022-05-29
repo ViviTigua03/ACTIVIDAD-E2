@@ -213,18 +213,22 @@ Este es un programa que se encarga que, cualquier usuario en general pueda sumar
     // Comparación de dos números 
 
    ![Diagramas de Flujo 1](https://user-images.githubusercontent.com/101415432/170892667-3539c50d-d0d1-4fc4-a223-eacc87b24038.jpeg)
+   
 
     // Calcular la Edad de una persona
    
    ![Diagramas de Flujo 2](https://user-images.githubusercontent.com/101415432/170892699-23d01df7-dea5-449e-bf3a-ed5fb273cb8a.jpeg)
    
+   
     // Punto de Venta
    
    ![Diagramas de Flujo 3](https://user-images.githubusercontent.com/101415432/170892713-08bb7964-3509-4954-82f6-be670b778a61.jpeg)
+   
 
     // Contar Monedas 
    
    ![Diagramas de Flujo 4](https://user-images.githubusercontent.com/101415432/170892727-2e029282-71f2-4a80-8bd9-12e2de6aeff7.jpeg)
+   
 
    // Sumar varios números
    
