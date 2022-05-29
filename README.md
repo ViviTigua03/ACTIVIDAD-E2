@@ -50,11 +50,11 @@ Este es un programa que se encarga que, cualquier usuario en general pueda sumar
 
 >> TiguaVivi-Compara.cpp :
 
-   float AR_t,AR_r;
-   cout<<"Ingrese el valor de T: ";
-   cin>>AR_t;
-   cout<<"Ingrese el valor de R: ";
-   cin>>AR_r;
+    float AR_t,AR_r;
+    cout<<"Ingrese el valor de T: ";
+    cin>>AR_t;
+    cout<<"Ingrese el valor de R: ";
+    cin>>AR_r;
   
  >> TiguaVivi-LaEdad.cpp : 
  
@@ -132,7 +132,7 @@ Este es un programa que se encarga que, cualquier usuario en general pueda sumar
    
 1.- Descargar F-Droid
   
-  https://f-droid.org/
+    https://f-droid.org/
 
 2.- Descargar la Terminal (Termux)
 
