@@ -10,7 +10,7 @@ Correo electronico: angie.tigua.rodriguez@utelvt.edu.ec
 
 Celular: 0986180938
 
-Link de video: https://www.youtube.com/watch?v=7_Vq-NVqGcI 
+Link del video de la ACTIVIDAD B1: https://www.youtube.com/watch?v=7_Vq-NVqGcI 
 
 # Nombres de cada Programa realizado en la ACTIVIDAD-C2 
 
@@ -192,10 +192,42 @@ Este es un programa que se encarga que, cualquier usuario en general pueda sumar
 
     cd ACTIVIDAD-B2-C2
 
-3.- Compilar Programa
+3.- Compilar Programa (Usted elije qué programa desea compilar)
 
+    g++ TiguaVivi-Compara.cpp -o TiguaVivi-Compara
+    g++ TiguaVivi-LaEdad.cpp -o TiguaVivi-LaEdad
+    g++ TiguaVivi-PuntoVenta.cpp -o TiguaVivi-PuntoVenta
     g++ TiguaVivi-CuentaMoneda.cpp -o TiguaVivi-CuentaMoneda
+    g++ TiguaVivi-SumaN.cpp -o TiguaVivi-SumaN
   
-# EJECUTAR LOS PROGRAMAS 
+# EJECUTAR LOS PROGRAMAS (Usted elije qué programa desea ejecutar)
   
+    ./TiguaVivi-Compara
+    ./TiguaVivi-LaEdad
+    ./TiguaVivi-PuntoVenta
     ./TiguaVivi-CuentaMoneda
+    ./TiguaVivi-SumaN
+    
+# DIAGRAMAS DE FLUJO DE LOS PROGRAMAS REALIZADOS EN LA ACTIVIDAD-C2
+
+    // Comparación de dos números 
+
+   ![Diagramas de Flujo 1](https://user-images.githubusercontent.com/101415432/170892667-3539c50d-d0d1-4fc4-a223-eacc87b24038.jpeg)
+
+    // Calcular la Edad de una persona
+   
+   ![Diagramas de Flujo 2](https://user-images.githubusercontent.com/101415432/170892699-23d01df7-dea5-449e-bf3a-ed5fb273cb8a.jpeg)
+   
+    // Punto de Venta
+   
+   ![Diagramas de Flujo 3](https://user-images.githubusercontent.com/101415432/170892713-08bb7964-3509-4954-82f6-be670b778a61.jpeg)
+
+    // Contar Monedas 
+   
+   ![Diagramas de Flujo 4](https://user-images.githubusercontent.com/101415432/170892727-2e029282-71f2-4a80-8bd9-12e2de6aeff7.jpeg)
+
+   // Sumar varios números
+   
+   ![Diagramas de Flujo 5](https://user-images.githubusercontent.com/101415432/170892774-92cfbd6e-e911-4aba-8e85-177aac3a69b7.jpeg)
+   
+   
