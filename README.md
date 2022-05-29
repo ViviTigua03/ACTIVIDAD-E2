@@ -18,9 +18,9 @@ TiguaVivi-LaEdad.cpp
 
 TiguaVivi-PuntoVenta.cpp
 
-TiguaVivi-SumaN.cpp
-
 TiguaVivi-CuentaMoneda.cpp
+
+TiguaVivi-SumaN.cpp
 
 # Descripción de cada Programa
 
@@ -48,7 +48,7 @@ Este es un programa que se encarga que, cualquier usuario en general pueda sumar
 
 >> TiguaVivi-Compara.cpp :
 
-	  float AR_t,AR_r;
+   float AR_t,AR_r;
    cout<<"Ingrese el valor de T: ";
    cin>>AR_t;
    cout<<"Ingrese el valor de R: ";
@@ -57,61 +57,57 @@ Este es un programa que se encarga que, cualquier usuario en general pueda sumar
  >> TiguaVivi-LaEdad.cpp : 
     
     int AR_dd,AR_mm,AR_yy,AR_dd1,AR_mm1,AR_yy1,AR_da,AR_ma,AR_ya;
-	cout<<"Ingresa la Fecha Actual: Dia Mes y Año "<<endl;
-	cin>>AR_dd>>AR_mm>>AR_yy;
-	cout<<"Ingresa la Fecha de Nacimiento: Dia Mes y Año "<<endl;
-	cin>>AR_dd1>>AR_mm1>>AR_yy1;   
+    cout<<"Ingresa la Fecha Actual: Dia Mes y Año "<<endl;
+    cin>>AR_dd>>AR_mm>>AR_yy;
+    cout<<"Ingresa la Fecha de Nacimiento: Dia Mes y Año "<<endl;
+    cin>>AR_dd1>>AR_mm1>>AR_yy1;   
   
   >> TiguaVivi-PuntoVenta.cpp : 
      
-     int AR_b=0,AR_q;
-     float AR_e=0,AR_m,AR_vt,AR_tiva,AR_tdes,AR_iva=0.12,AR_dsc=0.10,AR_pt;
-   cout<<"Ingresar la cantidad de productos a comprar: ";
-   cin>>AR_q;
-   do{
-   cout<<"Ingresar el valor del producto: ";
-   cin>>AR_m;
+    int AR_b=0,AR_q;
+    float AR_e=0,AR_m,AR_vt,AR_tiva,AR_tdes,AR_iva=0.12,AR_dsc=0.10,AR_pt;
+    cout<<"Ingresar la cantidad de productos a comprar: ";
+    cin>>AR_q;
+    do{
+    cout<<"Ingresar el valor del producto: ";
+    cin>>AR_m;
   
  >> TiguaVivi-CuentaMoneda.cpp : 
   
      int AR_n, AR_c=0, AR_c1=0, AR_c2=0;
-	   float AR_x, AR_a=0, AR_a1=0, AR_a2=0, AR_m=0.10;
-	  cout<<"Cantidad de monedas a ingresar : ";
-	  cin>>AR_n;
-	  do{
-	  cout<<"Ingrese el valor de la moneda (0.10, 0.25) : ";
-	  cin>>AR_x;
+     float AR_x, AR_a=0, AR_a1=0, AR_a2=0, AR_m=0.10;
+     cout<<"Cantidad de monedas a ingresar : ";
+     cin>>AR_n;
+     do{
+     cout<<"Ingrese el valor de la moneda (0.10, 0.25) : ";
+     cin>>AR_x;
             
 >> TiguaVivi-SumaN.cpp : 
     
      int AR_a=0,AR_v;
-	   float AR_t=0,AR_r;
-	  cout<<"Ingresar la cantidad de numeros a sumar: ";
-	  cin>>AR_v;
-	  do{
-	  cout<<"Ingresar un numero: ";
-	  cin>>AR_r;
+     float AR_t=0,AR_r;
+     cout<<"Ingresar la cantidad de numeros a sumar: ";
+     cin>>AR_v;
+     do{
+     cout<<"Ingresar un numero: ";
+     cin>>AR_r;
         
  # SALIDAS DE LOS PROGRAMAS
    
   >> TiguaVivi-Compara.cpp :
 
    cout<<"El valor de T: "<<AR_t<<" es mayor a R: "<<AR_r<<endl;
-    
-	 cout<<"El valor de R: "<<AR_r<<" es mayor a T: "<<AR_t<<endl;
+   cout<<"El valor de R: "<<AR_r<<" es mayor a T: "<<AR_t<<endl;
    
-        
   >> TiguaVivi-LaEdad.cpp : 
 
   cout<<"Usted Tiene "<<AR_ya<<" años "<<AR_ma<<" meses "<<" y "<<AR_da<<" dias "<<endl; 
-  
   
   >> TiguaVivi-PuntoVenta.cpp : 
 
   cout<<"El valor del iva de su compra es: $ " <<AR_tiva<<endl;
   cout<<"Su compra obtiene descuento de: "<<AR_vt<<endl;
   cout<<"El valor total a pagar de su compra es: $ "<<AR_pt<<endl;
-  
   
   >> TiguaVivi-CuentaMoneda.cpp : 
 
@@ -122,7 +118,6 @@ Este es un programa que se encarga que, cualquier usuario en general pueda sumar
     cout<<"Cantidad total en dinero de monedas de 0.10cc : "<<AR_a1<<endl;
     cout<<"Cantidad de monedas de 0.25cc ingresadas : "<<AR_c2<<endl;
     cout<<"Cantidad total en dinero de monedas de 0.25cc : "<<AR_a2<<endl;
-
 
   >> TiguaVivi-SumaN.cpp : 
 
